@@ -1,0 +1,476 @@
+.bloque1 {
+    border: 8px solid rgba(255, 60, 60, 0.856);
+    border-radius: 25px;
+    width: 80%;
+    max-width: 800px; 
+    height: auto; 
+    margin: 10px auto; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bloque1 .superior {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 100%; 
+    height: 100px;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.bloque1 h1 {
+    color: brown;
+    font-size: 50px; 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bloque1 p {
+    font-size: 1.2em; 
+    margin: 1em; 
+}
+
+nav ul li{
+    list-style-type: none;
+    display: flex;
+}
+
+.botonlace{
+    margin: 15px 0 15px 200px;
+    height: 50px;
+    width: 190px;
+    border-radius: 10px;
+    background: rgb(255, 170, 72);
+}
+
+a{
+    text-align: center;
+    padding: 15px 10px 10px 35px;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    display: flex;
+}
+
+.botonlace:hover{
+    background-color: aqua;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .bloque1 h1 {
+        font-size: 6vw; 
+    }
+
+    .bloque1 p {
+        font-size: 1em; 
+    }
+}
+
+/*--------------------------------Hobbies---------------------------------*/
+
+.bloque2{
+    border: 8px solid rgba(255, 60, 60, 0.856);
+    border-radius: 25px;
+    width: 80%;
+    max-width: 800px; 
+    height: auto; 
+    margin: 10px auto; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bloque2 .superior {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 100%; 
+    height: 100px;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.bloque2 h1 {
+    color: brown;
+    font-size: 50px; 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bloque2 p{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.bloque2 ul li{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width: 600px) {
+    .bloque2 h1 {
+        font-size: 6vw; 
+    }
+
+    .bloque2 p {
+        font-size: 1em; 
+    }
+}
+
+
+/*-----------------------------Informacion.perso---------------------------------*/
+/*---------------index--------------------*/
+.bloque3{
+    border: 8px solid rgba(255, 60, 60, 0.856);
+    border-radius: 25px;
+    width: 80%;
+    max-width: 800px; 
+    height: auto; 
+    margin: 10px auto; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bloque3 .superior {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 100%; 
+    height: 100px;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.bloque3 h1 {
+    color: brown;
+    font-size: 50px; 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bloque3 p{
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .bloque3 h1 {
+        font-size: 6vw; 
+    }
+
+    .bloque3 p {
+        font-size: 1em; 
+    }
+}
+
+/*---------------Familia--------------------*/
+
+.bloque4{
+    border: 8px solid rgba(255, 60, 60, 0.856);
+    border-radius: 25px;
+    width: 80%;
+    max-width: 800px; 
+    height: auto; 
+    margin: 10px auto; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bloque4 .superior {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 100%; 
+    height: 100px;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.bloque4 h1 {
+    color: brown;
+    font-size: 50px; 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bloque4 h4{
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.bloque4 p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+.image1{
+    text-align: center;
+}
+
+.image1 img{
+    width: 600px;
+    height: 450px;
+}
+
+.bloque4 ul li{
+    list-style-type: none;
+    display: flex;
+}
+
+.bloque4 h4{
+    margin-bottom: -10px;
+}
+
+@media (max-width: 600px) {
+    .bloque4 h1 {
+        font-size: 6vw; 
+    }
+
+    .bloque4 p {
+        font-size: 1em; 
+    }
+}
+
+/*---------------Amigos--------------------*/
+.bloque5{
+    border: 8px solid rgba(255, 60, 60, 0.856);
+    border-radius: 25px;
+    width: 80%;
+    max-width: 1200px; 
+    height: auto; 
+    margin: 10px auto; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bloque5 .superior {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 100%; 
+    height: 100px;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.bloque5 h1 {
+    color: brown;
+    font-size: 50px; 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bloque5 h3{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.bloque5 p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+.bloque5 ul li{
+    list-style-type: none;
+    display: flex;
+}
+
+/*---------------Mascotas--------------------*/
+.bloque6{
+    border: 8px solid rgba(255, 60, 60, 0.856);
+    border-radius: 25px;
+    width: 80%;
+    max-width: 1200px; 
+    height: auto; 
+    margin: 10px auto; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bloque6 .superior {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 100%; 
+    height: 100px;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.bloque6 h1 {
+    color: brown;
+    font-size: 50px; 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bloque6 h3{
+    font-size: 35px;
+    font-family: sans-serif;
+
+}
+
+.bloque6 h4{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.bloque6 p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+.bloque6 ul li{
+    list-style-type: none;
+    display: flex;
+}
+
+/*-----------------------------Gustos---------------------------------*/
+/*---------------index--------------------*/
+.bloque7{
+    border: 8px solid rgba(255, 60, 60, 0.856);
+    border-radius: 25px;
+    width: 80%;
+    max-width: 1200px; 
+    height: auto; 
+    margin: 10px auto; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bloque7 .superior {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 100%; 
+    height: 100px;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.bloque7 h1 {
+    color: brown;
+    font-size: 50px; 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bloque7 p{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+/*---------------Cultuales--------------------*/
+.bloque8{
+    border: 8px solid rgba(255, 60, 60, 0.856);
+    border-radius: 25px;
+    width: 80%;
+    max-width: 1200px; 
+    height: auto; 
+    margin: 10px auto; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bloque8 .superior {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 100%; 
+    height: 100px;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.bloque8 h1 {
+    color: brown;
+    font-size: 50px; 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bloque8 p {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.bloque8 .titut li{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.image2{
+    text-align: center;
+}
+
+.image2 img{
+    width: 450px;
+    height: 600px;
+}
+
+/*---------------Musicales--------------------*/
+.bloque9{
+    border: 8px solid rgba(255, 60, 60, 0.856);
+    border-radius: 25px;
+    width: 80%;
+    max-width: 1200px; 
+    height: auto; 
+    margin: 10px auto; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bloque9 .superior {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 100%; 
+    height: 100px;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.bloque9 h1 {
+    color: brown;
+    font-size: 50px; 
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bloque9 h3{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.Alan{
+    margin-top: 90px;
+}
+
+.bloque9 p {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+.bloque9 .listado li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
