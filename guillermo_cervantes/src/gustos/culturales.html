@@ -6,43 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gustos_culturales</title>
 
-    <link rel="stylesheet" href="/src/estilos/estilo.css">
+    <link rel="stylesheet" href="../estilos/estilo.css">
 </head>
+
+<header class="titulo">
+    <h1>Gustos Culturales</h1>
+</header>
+
 <body>
-    <div class="bloque8">
-        <div class="superior">
-            <h1>Gusto Cultural</h1>
+    <section class="barra">
+        <div class="rectangulo">
+            <div>
+                <button>
+                    <strong>
+                        <a href="../gustos/index.html">Otro gusto</a>
+                    </strong>
+                </button>
+            </div>
+            <div>
+                <button>
+                    <strong><a href="../../src/index.html">Inicio</a></strong>
+                </button>
+            </div>
         </div>
-        <ul class="titut">
-            <li>
-                Boliviana
-            </li>
-            <div class="image2">
-                <img  src="/src/Fotos/día_de_la_morenada.jpg" alt="">
-            </div>
-            <p>Me gusta las tradiciones bolivianas, sobre todo los mitos, comidas y bailes.</p>
-            <li>
-                Asiática
-            </li>
-            <div class="image1">
-                <img class="image1" src="/src/Fotos/Dioses de la fortuna.jpg" alt="">
-            </div>
-            <p>Me atrae los valores, tradiciones de la cultura asiática, especialmente la japonesa y la china. No solamente el anime, si no la verdadera vivencia en Japón, tradiciones y dioses.</p>
-        </ul>
-        <nav>
-            <ul>
-                <li>
-                    <div class="botonlace">
-                        <a href="../gustos/index.html">Elegir otro gusto</a>
+        <section class="contenido">
+            <main class="cultural">
+                <div class="grupo">
+                    <img class="moreno" src="../Fotos/día_de_la_morenada.jpg" alt="">
+                    <div class="texto">
+                        <h3>Boliviana</h3>
+                        <p>-Me gusta las tradiciones bolivianas, sobre todo los mitos, comidas y bailes.</p>
+                        <p>-Bailes favoritos: </p>
+                        <ul>
+                            <li>Tinku</li>
+                            <li>Diablada</li>
+                            <li>Caporales</li>
+                            <li>Morenada</li>
+                            <li>Pujllay</li>
+                            <li>Carnaval Paceño</li>
+                        </ul>
                     </div>
-                </li>
-                <li>
-                    <div class="botonlace">
-                        <a href="../index.html">Volver al inicio</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </div>
+                </div>
+                          
+                <div class="grupo">
+                    <img class="asia" src="../Fotos/Dioses de la fortuna.jpg" alt="">
+                    <div class="texto">
+                        <h3>Asiática</h3>
+                        <p>Me atrae los valores, tradiciones de la cultura asiática, especialmente la japonesa y la china.</p>
+                        <p>No solamente el anime o manhwa.</p>
+                        <p>Me iteresa bastante el vivir verdadera eperiencia en japón, tradiciones y dioses.</p>
+                    </div>      
+                </div>
+            </main>
+        </section>
+    </section>
 </body>
 </html>

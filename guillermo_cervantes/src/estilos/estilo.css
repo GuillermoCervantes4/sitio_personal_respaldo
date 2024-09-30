@@ -1,476 +1,548 @@
-.bloque1 {
-    border: 8px solid rgba(255, 60, 60, 0.856);
-    border-radius: 25px;
-    width: 80%;
-    max-width: 800px; 
-    height: auto; 
-    margin: 10px auto; 
-    padding: 10px;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.bloque1 .superior {
-    background-color: bisque;
-    border-radius: 10px;
-    width: 100%; 
-    height: 100px;
-    padding: 10px; 
-    box-sizing: border-box; 
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../tipografias/minecrafter-ma3dw.ttf') format('truetype');
 }
 
-.bloque1 h1 {
-    color: brown;
-    font-size: 50px; 
-    font-family: sans-serif;
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+.titulo {
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Minecraft'; 
     text-align: center;
-    margin-top: 5px;
+    font-size: 50px;
 }
 
-.bloque1 p {
-    font-size: 1.2em; 
-    margin: 1em; 
+h2{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: sans-serif;
 }
 
-nav ul li{
-    list-style-type: none;
+.barra{
     display: flex;
 }
 
-.botonlace{
-    margin: 15px 0 15px 200px;
-    height: 50px;
-    width: 190px;
-    border-radius: 10px;
-    background: rgb(255, 170, 72);
+.barra .rectangulo{
+    width: 100%;
+    max-width: 250px;
+    height: 160vh; 
+    background: rgb(0, 255, 179);
+    display: flex;
+    flex-direction: column;
 }
 
-a{
+.barra .rectangulo div{
+    margin: 20px 20px 30px 0;
     text-align: center;
-    padding: 15px 10px 10px 35px;
-    font-size: 17px;
-    text-decoration: none;
+}
+
+.barra .rectangulo div:nth-child(1){
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.barra .rectangulo div:nth-child(2){
+    margin-left: 40px;
+}
+
+.barra .rectangulo div:nth-child(3){
+    margin-left: 40px;
+}
+
+.rectangulo div button{
+    margin: 40px;
+    width: 150px;
+    margin-bottom: 70px;
+    margin-left: -10px;
+    background: rgb(0, 255, 179);
+    border: rgb(0, 255, 179);
+    text-align: center;
+}
+
+.barra .rectangulo div button strong a{
+    font-family: sans-serif;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: contents;
+} 
+
+.barra .rectangulo div button:hover{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
     color: rgb(0, 0, 0);
-    font-family: sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+.contenido{ 
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.contenido .status {
     display: flex;
-}
-
-.botonlace:hover{
-    background-color: aqua;
-    text-decoration: none;
-}
-
-@media (max-width: 600px) {
-    .bloque1 h1 {
-        font-size: 6vw; 
-    }
-
-    .bloque1 p {
-        font-size: 1em; 
-    }
-}
-
-/*--------------------------------Hobbies---------------------------------*/
-
-.bloque2{
-    border: 8px solid rgba(255, 60, 60, 0.856);
-    border-radius: 25px;
-    width: 80%;
-    max-width: 800px; 
-    height: auto; 
-    margin: 10px auto; 
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.bloque2 .superior {
-    background-color: bisque;
-    border-radius: 10px;
-    width: 100%; 
-    height: 100px;
-    padding: 10px; 
-    box-sizing: border-box; 
-}
-
-.bloque2 h1 {
-    color: brown;
-    font-size: 50px; 
     font-family: sans-serif;
-    text-align: center;
-    margin-top: 5px;
+}
+  
+.contenido .status img {
+    margin-right: 10px; 
+    width: 500px; 
+    border: 5px solid black;
+}
+  
+.contenido .status .texto {
+    flex: 1;
+    margin-left: 30px;
 }
 
-.bloque2 p{
+.contenido .status .texto h3{
     font-size: 40px;
-    margin-left: 30px;
-}
-
-.bloque2 ul li{
-    font-size: 20px;
-    margin-bottom: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-@media (max-width: 600px) {
-    .bloque2 h1 {
-        font-size: 6vw; 
-    }
-
-    .bloque2 p {
-        font-size: 1em; 
-    }
-}
-
-
-/*-----------------------------Informacion.perso---------------------------------*/
-/*---------------index--------------------*/
-.bloque3{
-    border: 8px solid rgba(255, 60, 60, 0.856);
-    border-radius: 25px;
-    width: 80%;
-    max-width: 800px; 
-    height: auto; 
-    margin: 10px auto; 
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.bloque3 .superior {
-    background-color: bisque;
+    background-color: rgb(255, 196, 0);
     border-radius: 10px;
-    width: 100%; 
-    height: 100px;
-    padding: 10px; 
-    box-sizing: border-box; 
+    width: 500px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
 }
 
-.bloque3 h1 {
-    color: brown;
-    font-size: 50px; 
-    font-family: sans-serif;
+.contenido .frase{
     text-align: center;
-    margin-top: 5px;
+    margin: 60px auto; 
+    margin-top: 80px;
+    width: 100%;
+    font-size: 60px;
 }
 
-.bloque3 p{
-    font-size: 40px;
-    margin-left: 30px;
-    font-family: sans-serif;
-    text-align: center;
+.contenido .status .texto p{
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
-@media (max-width: 600px) {
-    .bloque3 h1 {
-        font-size: 6vw; 
-    }
-
-    .bloque3 p {
-        font-size: 1em; 
-    }
-}
-
-/*---------------Familia--------------------*/
-
-.bloque4{
-    border: 8px solid rgba(255, 60, 60, 0.856);
-    border-radius: 25px;
-    width: 80%;
-    max-width: 800px; 
-    height: auto; 
-    margin: 10px auto; 
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.bloque4 .superior {
-    background-color: bisque;
-    border-radius: 10px;
-    width: 100%; 
-    height: 100px;
-    padding: 10px; 
-    box-sizing: border-box; 
-}
-
-.bloque4 h1 {
-    color: brown;
-    font-size: 50px; 
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.bloque4 h4{
-    font-size: 20px;
-    margin-left: 30px;
-    font-family: sans-serif;
-}
-
-.bloque4 p{
-    font-size: 18px;
-    font-family: sans-serif;
-    margin-left: 30px;
+p{
+    color: black;
 }
 
 .image1{
-    text-align: center;
+    width: 500px; 
 }
 
-.image1 img{
-    width: 600px;
-    height: 450px;
+/*-----------------------------------------------*/
+.imagefamily{
+    width: 800px; 
+    align-content: center;
+    justify-content: center;
 }
 
-.bloque4 ul li{
-    list-style-type: none;
+.contenido .family{
     display: flex;
+    font-family: sans-serif;
 }
 
-.bloque4 h4{
-    margin-bottom: -10px;
+.contenido .family .texto{
+    margin-left: 30px;
 }
 
-@media (max-width: 600px) {
-    .bloque4 h1 {
-        font-size: 6vw; 
-    }
-
-    .bloque4 p {
-        font-size: 1em; 
-    }
+.advertencia{
+    margin: 30px 60px 40px 0;
+    font-size: 50px;
+    font-family: sans-serif;
 }
 
-/*---------------Amigos--------------------*/
-.bloque5{
-    border: 8px solid rgba(255, 60, 60, 0.856);
-    border-radius: 25px;
-    width: 80%;
-    max-width: 1200px; 
-    height: auto; 
-    margin: 10px auto; 
-    padding: 10px;
-    box-sizing: border-box;
+.contenido .emperador{
+    text-align: center;
+    color: red
 }
 
-.bloque5 .superior {
-    background-color: bisque;
+.contenido .emperador img{
+    width: 500px;
+    border: 30px solid black;
+}
+
+.contenido .family .texto h3{
+    font-size: 40px;
+    background-color: rgb(255, 196, 0);
     border-radius: 10px;
-    width: 100%; 
-    height: 100px;
-    padding: 10px; 
-    box-sizing: border-box; 
-}
-
-.bloque5 h1 {
-    color: brown;
-    font-size: 50px; 
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.bloque5 h3{
-    font-size: 25px;
-    margin-left: 30px;
-    font-family: sans-serif;
-}
-
-.bloque5 p{
-    font-size: 18px;
-    font-family: sans-serif;
-    margin-left: 30px;
-}
-
-.bloque5 ul li{
-    list-style-type: none;
-    display: flex;
-}
-
-/*---------------Mascotas--------------------*/
-.bloque6{
-    border: 8px solid rgba(255, 60, 60, 0.856);
-    border-radius: 25px;
-    width: 80%;
-    max-width: 1200px; 
-    height: auto; 
-    margin: 10px auto; 
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.bloque6 .superior {
-    background-color: bisque;
-    border-radius: 10px;
-    width: 100%; 
-    height: 100px;
-    padding: 10px; 
-    box-sizing: border-box; 
-}
-
-.bloque6 h1 {
-    color: brown;
-    font-size: 50px; 
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.bloque6 h3{
-    font-size: 35px;
-    font-family: sans-serif;
-
-}
-
-.bloque6 h4{
-    font-size: 25px;
-    margin-left: 30px;
-    font-family: sans-serif;
-}
-
-.bloque6 p{
-    font-size: 18px;
-    font-family: sans-serif;
-    margin-left: 30px;
-}
-
-.bloque6 ul li{
-    list-style-type: none;
-    display: flex;
-}
-
-/*-----------------------------Gustos---------------------------------*/
-/*---------------index--------------------*/
-.bloque7{
-    border: 8px solid rgba(255, 60, 60, 0.856);
-    border-radius: 25px;
-    width: 80%;
-    max-width: 1200px; 
-    height: auto; 
-    margin: 10px auto; 
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.bloque7 .superior {
-    background-color: bisque;
-    border-radius: 10px;
-    width: 100%; 
-    height: 100px;
-    padding: 10px; 
-    box-sizing: border-box; 
-}
-
-.bloque7 h1 {
-    color: brown;
-    font-size: 50px; 
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.bloque7 p{
-    font-size: 25px;
-    font-family: sans-serif;
-    margin-left: 30px;
-}
-
-/*---------------Cultuales--------------------*/
-.bloque8{
-    border: 8px solid rgba(255, 60, 60, 0.856);
-    border-radius: 25px;
-    width: 80%;
-    max-width: 1200px; 
-    height: auto; 
-    margin: 10px auto; 
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.bloque8 .superior {
-    background-color: bisque;
-    border-radius: 10px;
-    width: 100%; 
-    height: 100px;
-    padding: 10px; 
-    box-sizing: border-box; 
-}
-
-.bloque8 h1 {
-    color: brown;
-    font-size: 50px; 
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.bloque8 p {
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-top: 10px;
-    margin-bottom: 90px;
-}
-
-.bloque8 .titut li{
-    font-size: 35px;
-    font-family: sans-serif;
-}
-
-.image2{
-    text-align: center;
-}
-
-.image2 img{
-    width: 450px;
-    height: 600px;
-}
-
-/*---------------Musicales--------------------*/
-.bloque9{
-    border: 8px solid rgba(255, 60, 60, 0.856);
-    border-radius: 25px;
-    width: 80%;
-    max-width: 1200px; 
-    height: auto; 
-    margin: 10px auto; 
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.bloque9 .superior {
-    background-color: bisque;
-    border-radius: 10px;
-    width: 100%; 
-    height: 100px;
-    padding: 10px; 
-    box-sizing: border-box; 
-}
-
-.bloque9 h1 {
-    color: brown;
-    font-size: 50px; 
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 5px;
-}
-
-.bloque9 h3{
-    font-size: 25px;
-    margin-left: 30px;
-    font-family: sans-serif;
-}
-
-.Alan{
-    margin-top: 90px;
-}
-
-.bloque9 p {
-    font-size: 18px;
-    font-family: sans-serif;
-    margin-left: 30px;
-}
-
-.bloque9 .listado li{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    width: 500px;
     margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.contenido .family .texto p{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.comentario1{
+    position: absolute;
+    padding: 20px;
+    font-size: 40px;
+    font-family: sans-serif;
+    background-color: rgb(94, 57, 9);
+    width: 200px;
+    height: 200px;
+    margin: -600px 0 0 600px;
+    z-index: 1;
+}
+
+.comentario1 p{
+    color: white;
+}
+
+.comentario2{
+    position: absolute;
+    padding: 20px;
+    font-size: 60px;
+    background-color: rgb(165, 42, 42);
+    width: 500px;
+    z-index: 2;
+    margin: -200px 0 0 1225px;
+}
+
+.comentario2 p{
+    color: white;
 }
 
 
+/*-----------------------------------------------*/
+.contenido .amigos{
+    display: block;
+}
+
+.contenido .amigos .grupo{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.contenido .amigos .texto h3{
+    font-size: 30px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 0 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.contenido .amigos .texto p{
+    font-size: 25px;
+    margin: 0 20px 20px 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-family: sans-serif
+}
+
+.contenido .amigos .image1{
+    width: 600px;
+}
+
+/*-----------------------------------------------*/
+
+.contenido .mascotas{
+    display: block;
+}
+
+.contenido .mascotas .grupo{
+    display: flex; 
+    margin-bottom: 50px
+}
+
+.contenido .mascotas .grupo h3{
+    font-size: 30px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 0 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.contenido .mascotas .grupo p{
+    font-size: 25px;
+    margin: 0 20px 20px 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-family: sans-serif;
+}
+
+.kafka{
+    width: 600px;
+    margin: 0 0 0 20px;
+}
+
+.ale{
+    width: 600px;
+    margin: 0 0 0 20px;
+}
+
+
+/*----------------------------------------------------------*/
+.contenido .hobbies .grilla {
+    height: 100vh;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contenido .hobbies .grilla div {
+    background-color: #797979;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: sans-serif;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.contenido .hobbies .grilla div p{
+    background-color: #ce790a;
+    border-radius: 50px;
+    color: white;
+}
+
+.contenido .hobbies .grilla div:nth-child(1){
+    background-image: url('../Fotos/musica.jfif');
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido .hobbies .grilla div:nth-child(2){
+    background-image: url('../Fotos/manga.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido .hobbies .grilla div:nth-child(3){
+    background-image: url('../Fotos/dibujar.jfif');
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido .hobbies .grilla div:nth-child(4){
+    background-image: url('../Fotos/baile.jfif');
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido .hobbies .grilla div:nth-child(5){
+    background-image: url('../Fotos/series_animadas.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido .hobbies .grilla div:nth-child(6){
+    background-image: url('../Fotos/gym.jfif');
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido .hobbies .grilla div:nth-child(7){
+    background-image: url('../Fotos/imaginacion.jfif');
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido .hobbies .grilla div:nth-child(8){
+    background-image: url('../Fotos/videojuegos.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido .hobbies .grilla div:nth-child(9){
+    background-image: url('../Fotos/ajedrez.jfif');
+    background-position: center;
+    background-size: cover;
+}
+
+.contenido .hobbies .grilla div:nth-child(10){
+    background-image: url('../Fotos/comer.jfif');
+    background-position: center;
+    background-size: cover;
+}
+
+.sticker{
+    position: absolute;
+    border: none;
+    margin-top: -1180px;
+    right: 200px;
+    width: 300px;
+    transform: rotate(15deg);
+    z-index: 0;
+}
+
+/*----------------------------------------------------------*/
+
+.contenido .cultural{
+    display: block;
+}
+
+.contenido .cultural .grupo{
+    display: flex; 
+    margin-bottom: 50px
+}
+
+.contenido .cultural .grupo h3{
+    font-size: 30px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 0 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.contenido .cultural .grupo p{
+    font-size: 25px;
+    margin: 0 20px 20px 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-family: sans-serif;
+}
+
+.moreno, .asia{
+    width: 400px;
+}
+
+.asia{
+    width: 700px;
+}
+
+.contenido .cultural .grupo .texto ul li{
+    font-size: 25px;
+    margin: 0 20px 20px 90px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-family: sans-serif;
+}
+
+/*----------------------------------------------------------*/
+
+.contenido .musical{
+    display: block;
+}
+
+.contenido .musical .grupo{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.contenido .musical .texto h3{
+    font-size: 30px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 0 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.contenido .musical .texto p{
+    font-size: 25px;
+    margin: 0 20px 20px 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-family: sans-serif
+}
+
+.phil{
+    display: flex;
+    width: 500px;
+}
+
+.alan{
+    display: flex;
+    width: 700px;
+}
+
+.contenido h3{
+    margin: 20px 20px 20px 0;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+.contenido .grilla1 {
+    height: 50vh;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contenido .grilla1 div {
+    background-color: #35b3fc;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: sans-serif;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+.contenido .grilla1 div a{
+    text-decoration: none;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.contenido .grilla1 div:nth-child(11){
+    background-color: rgb(0, 68, 255);
+    grid-column:2/5;
+    grid-row:3/3;
+    display: block; 
+    justify-content:baseline; 
+    align-items: center; 
+    text-align: center;
+}
+.contenido .grilla1 div:nth-child(11) a{
+    display: block; 
+    margin: 0 0 10px 0;
+}
+
+img{
+    border: 10px solid rgb(0, 91, 196);
+}
+
+.contenido1{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 50px 10px 0 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.contenido1 .apunta{
+    width: 800px;
+    height: 800px;
+    background-color: #ce790a;
+    color: aliceblue;
+    margin: 50px 10px 0 50px;
+}
+
+.contenido1  .apunta p{
+    align-items: center;
+    justify-items: center;
+}
+
+.contenido1  .apunta:hover{ 
+    background-image: url("../Fotos/apuntando.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 800px;
+}
