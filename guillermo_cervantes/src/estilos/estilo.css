@@ -379,9 +379,9 @@ p{
 .sticker{
     position: absolute;
     border: none;
-    margin-top: -1180px;
+    margin-top: -1700px;
     right: 200px;
-    width: 300px;
+    width: 800px;
     transform: rotate(15deg);
     z-index: 0;
 }
@@ -539,7 +539,7 @@ img{
     justify-items: center;
 }
 
-.contenido1  .apunta:hover{ 
+.contenido1 .apunta:hover{ 
     background-image: url("../Fotos/apuntando.jpg");
     background-position: center;
     background-size: cover;
